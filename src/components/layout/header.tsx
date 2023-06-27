@@ -1,5 +1,5 @@
-import LanguagesButton from '@/components/languages-button';
-import ThemeButton from '@/components/theme-button';
+// import LanguagesButton from '@/components/languages-button';
+// import ThemeButton from '@/components/theme-button';
 import { HStack } from '@chakra-ui/react';
 
 const Header = () => {
@@ -14,8 +14,8 @@ const Header = () => {
       align='center'
       w='100%'
     >
-      <ThemeButton />
-      <LanguagesButton />
+      {/* <ThemeButton />
+      <LanguagesButton /> */}
     </HStack>
   );
 };
